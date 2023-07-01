@@ -1,0 +1,33 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container">
+    <div class="row dashboard-info">
+        <div class="card col-md-3 card-info">
+            <div class="card-body">
+              <div class="lead">Total Downloads</div>
+              <h2 class="card-title">1,057,891</h2>
+            </div>
+        </div>
+        <div class="card col-md-3 card-info">
+            <div class="card-body">
+              <div class="lead">Users</div>
+              <h2 class="card-title">1100</h2>
+            </div>
+        </div>
+        <div class="card col-md-3 card-info">
+            <div class="card-body">
+              <div class="lead">Active Users</div>
+              <h2 class="card-title">10</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .dashboard-info{
+        justify-content: space-around;
+    }
+    .dashboard-info .card{
+        border-radius: 10px;
+    }
+</style>
+{% endblock %}
