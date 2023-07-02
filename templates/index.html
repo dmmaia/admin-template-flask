@@ -37,7 +37,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-8 content">
+            <div class="content">
                 {% block content %}
         
                 {% endblock %}
@@ -47,6 +47,9 @@
   </body>
 </html>
 <style>
+    body {
+        background-color: rgb(240, 235, 235);
+    }
     .side-bar{
         height: 100%;
         width: 20dvw;
@@ -65,5 +68,12 @@
     .content{
         margin-left: 20dvw;
         margin-top: 5vh;
+    }
+    .card{
+        background-color: white;
+        border-radius: 5%;
+    }
+    .btn{
+      border-radius: 5%;
     }
 </style>
